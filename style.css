@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+.header-content {
+  width: 1024px;
+  margin: 0 auto;
+}
+.mySite {
+  height: 70px;
+  float: left;
+}
+.header-list{
+  float: right;
+}
+.header-list-menu{
+  float: left;
+  width: 120px;
+	line-height: 70px;
+	color: #FAFAFA;
+	padding: 0 30px;
+	list-style: none;
+	font-size: 16px;
+}
+
+.header-list-menu a{
+	color: #FAFAFA;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  padding-top: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-visual-h {
+  font-size: 64px;
+  color: #FAFAFA;
+  padding-bottom: 10px;
+}
+.main-visual-p {
+  font-size: 20px;
+  color: #FAFAFA;
+}
+.main {
+  width: 100%;
+}
+.main-topic {
+  padding: 90px 0;
+  margin: 0 auto;
+  height: auto;
+}
+.main-content {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.main-content-h {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+.under-bar {
+  margin: 0 auto;
+  height: 8px;
+  width: 70px;
+  border-bottom: solid 3px #EC715F;
+}
+
+.main-content-p {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 16px;
+}
+
+.portfolio-img1 {
+  float: left;
+  margin-bottom: 10px;
+  width: 300px;
+	height: 250px;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-img2 {
+  float: left;
+  margin: 0 10px 10px 10px;
+  width: 300px;
+	height: 250px;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-img3 {
+  float: left;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 250px;
+  background-image: url(./img/write.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-img4 {
+  float: left;
+  width: 300px;
+	height: 250px;
+  background-image: url(./img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-img5 {
+  float: left;
+  margin: 0 10px;
+  width: 300px;
+	height: 250px;
+  background-image: url(./img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-img6 {
+  float: left;
+  width: 300px;
+	height: 250px;
+  background-image: url(./img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.Feature-content {
+  width: 980px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.Feature-element {
+  width: 320px;
+  height: auto;
+  font-size: 60px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  padding-bottom: 90px:
+}
+
+.Feature-element-h {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+  text-align: center;
+}
+.Feature-element-p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.Feature-element:last-child{
+  margin-right: 0;
+}
+
+.prolfile-content {
+  width: 1024px;
+  height: auto;
+  margin: 30px auto 90px;
+}
+
+.profile-element {
+  width: 512px;
+  height: auto;
+  float: left;
+}
+.profile-img {
+  background-image: url(./img/my-icon.jpg);
+  Border-radius:50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+.profile-element-h {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.profile-element-p {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.contact-content {
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.contact-element1 {
+  width: 400px;
+  float: left;
+  text-align: center;
+  height: 250px;
+}
+.contact-element2 {
+  width: 400px;
+  float: left;
+  text-align: center;
+  height: 250px;
+  font-size: 60px;
+}
+
+.contact-element-h {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-element-p {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.main-topic:nth-child(odd) {
+  background-color: #ECEFF1;
+}
+
+footer {
+  background-color: #EC715F;
+  height: 60px;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer-text {
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+@media screen and (max-width:767px) {
+
+  header {
+    width: 90%;
+  }
+  .main-visual {
+    width: 90%;
+  }
+  .main {
+    width: 90%;
+  }
+  .main-topic {
+    width: 90%;
+  }
+  .main-content {
+    width: 90%;
+  }
+  .Feature-content{
+    width: 90%;
+  }
+  .Feature-element{
+    width: 90%;
+    float: none;
+  }
+  .profile-content{
+    width: 90%;
+  }
+  .profile-element{
+    width: 90%;
+    float: none;
+  }
+  .contact-content{
+    width: 90%;
+  }
+  .contact-element{
+    width: 90%;
+    float: none;
+  }
+
+}
