@@ -163,7 +163,7 @@ header {
   font-size: 60px;
   text-align: center;
   float: left;
-  margin-right: 10px;
+    margin-right: 10px;
   padding-bottom: 90px:
 }
 
@@ -176,6 +176,7 @@ header {
 .Feature-element-p {
   font-size: 16px;
   color: #000000;
+  text-align: center;
 }
 
 .Feature-element:last-child{
@@ -185,11 +186,11 @@ header {
 .prolfile-content {
   width: 1024px;
   height: auto;
-  margin: 30px auto 90px;
+  margin: 30px 0 0 0;
 }
 
 .profile-element {
-  width: 512px;
+  width: 510px;
   height: auto;
   float: left;
 }
@@ -213,31 +214,42 @@ header {
 .contact-content {
   width: 800px;
   margin: 0 auto;
-
 }
 
 .contact-element1 {
   width: 400px;
   float: left;
   text-align: center;
-  height: 250px;
+  height: auto;
+}
+.contact-element1-1 {
+  width: 130px;
+  margin: 0 auto;
 }
 .contact-element2 {
   width: 400px;
   float: left;
   text-align: center;
-  height: 250px;
-  font-size: 60px;
+  height: auto;
+  font-size: 50px;
+}
+.contact-element2-1 {
+  width: 170px;
+  margin: 0 auto;
 }
 
 .contact-element-h {
+  display: block;
+  width: 120px;
   font-size: 20px;
   margin-bottom: 5px;
+  text-align: left;
 }
 
 .contact-element-p {
   margin-bottom: 20px;
   text-decoration: underline;
+  text-align: left;
 }
 
 .main-topic:nth-child(odd) {
@@ -256,42 +268,190 @@ footer {
 }
 
 @media screen and (max-width:767px) {
-
   header {
+    display: block;
+    width: 100%;
+    height: 50px;
+    /* margin: 0 5px; */
+  }
+  .header-content {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+  }
+  .header-menu {
+    width: 40px;
+    height: 40px;
+    float: right;
+    border: 1px solid #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    border-bottom: 1px solid #fff;
+    margin: 5px auto;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .mySite {
+    height: 50px;
+    float: none;
+  }
+
+  .main-visual {
+    width: 100%;
+    /* margin: 0 5px; */
+    height: 650px;
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .main-visual-content {
     width: 90%;
   }
-  .main-visual {
-    width: 90%;
+  .main-visual-h {
+    width: 100%;
+    font-size: 40px;
+  }
+  .main-visual-p {
+    font-size: 18px;
   }
   .main {
-    width: 90%;
+    width: 100%;
+    /* margin: 0 5px; */
   }
-  .main-topic {
-    width: 90%;
-  }
+
   .main-content {
     width: 90%;
+}
+  .portfolio-img1 {
+    float: none;
+    display: none;
+  }
+  .portfolio-img2 {
+    float: none;
+    margin: 0 auto 10px;
+    width: 300px;
+  	height: 250px;
+    background-image: url(img/websuku.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .portfolio-img3 {
+    float: none;
+    display: none;
+  }
+  .portfolio-img4 {
+    float: none;
+    width: 300px;
+  	height: 250px;
+    margin: 0 auto 10px;
+    background-image: url(./img/webcamp.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .portfolio-img5 {
+    float: none;
+    display: none;
+  }
+  .portfolio-img6 {
+    float: none;
+    width: 300px;
+  	height: 250px;
+    margin: 0 auto 10px;
+    background-image: url(./img/webcamp-mother.png);
+    background-size: cover;
+    background-position: center;
+  }
+   .main-content-h {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  /*
+  .main-content-p {
+    display: block;
+    width: 90%;
+  } */
+  .content {
+    width: 90%;
+    margin: 0 auto;
   }
   .Feature-content{
     width: 90%;
+    margin: 0 auto;
   }
   .Feature-element{
-    width: 90%;
+    width: 100%;
     float: none;
+    margin-right: 0;
+    margin: 0 auto;
   }
-  .profile-content{
+  .prolfile-content {
     width: 90%;
+    margin: 0 auto;
   }
   .profile-element{
-    width: 90%;
     float: none;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  .profile-element:first-child {
+    padding-bottom: 20px;
+  }
+  .profile-element-h {
+    text-align: center;
+  }
+  .profile-element-p {
+    text-align: center;
   }
   .contact-content{
-    width: 90%;
+    width: 100%;
   }
   .contact-element{
-    width: 90%;
+    width: 100%;
     float: none;
   }
-
+  .contact-element-h {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  .contact-element-p {
+    margin-bottom: 20px;
+  }
+  .contact-element1 {
+    margin: 0 auto;
+    float: none;
+    width: 90%;
+  }
+  .contact-element2 {
+    margin: 0 auto;
+    float: none;
+    width: 90%;
+  }
+  .main-topic-topic {
+    width: 90%;
+    margin: 0 auto;
+  }
+  footer {
+    width: 100%;
+    /* margin: 0 5px; */
+    font-size: 16px;
+    height: 60px;
+  }
+  .bbb {
+    display: none;
+  }
+  .bar:first-child{
+    padding-top: 6px;
+  }
 }
